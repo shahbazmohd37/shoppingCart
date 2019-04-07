@@ -1,0 +1,82 @@
+/* you can add any styles you think could improve user's experience */
+header {
+    color: #FFFFFF;
+    top: 0px;
+    position: fixed;
+    right: 0px;
+    height: 10vh;
+    left: 0px;
+    z-index: 9;
+    background: #FFFFFF;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+}
+.logo {
+    float: left;
+    line-height: 11vh;
+    width: 10vw;
+}
+nav {
+    display: inline-block;
+    width: fit-content;
+    margin: 0 2vw;
+}
+nav > * {
+    display: inline-block;
+    line-height: 7vh;
+    font-size: 20px;
+    padding: 10px;
+}
+.nav-content {
+    height: 100%;
+}
+.actions {
+    float: right;
+    display: inline-block;
+    width: fit-content;
+    color: blue;
+    height: 100%;
+}
+.user {
+    position: relative;
+    width: 80px;
+    display: inline-block;
+    height: 100%;
+    padding: 10px;
+    line-height: 9vh;
+}
+.user > span:first-child {
+    position: absolute;
+    top: 0;
+}
+.shopping-cart {
+    position: relative;
+    width: 80px;
+    display: inline-block;
+    height: 100%;
+    padding: 10px;
+    line-height: 9vh;
+}
+.shopping-cart > span:first-child {
+    position: absolute;
+    top: 0;
+}
+.query {
+    position: relative;
+    display: inline-block;
+    float: right;
+    height: 100%;
+    margin-right: 5%;
+}
+.query > div{
+    margin-top: 2vh;
+    position: relative;
+}
+input {
+    border-radius: 10px;
+}
+.search-icon {
+    color: black;
+    position: absolute;
+    right: 2%;
+    top: 6%;
+}

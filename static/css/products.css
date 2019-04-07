@@ -1,0 +1,42 @@
+.products {
+    margin-top: 10vh;
+    padding: 2vh 3vw;
+}
+.loading-container {
+    position: relative;
+    height: 100%;  
+}
+.loader {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    color: blue;
+}
+ul > * {
+    width: 100px;
+}
+.card {
+    margin: 4%;
+    width: 16%;
+}
+.item-content {
+    padding: 5px;
+}
+.item-content > p {
+    margin-block-end: 4px;
+    font-size: 18px;
+}
+.sort-by-container {
+margin-bottom: 2%;
+margin-bottom: 2%;
+}
+.sort-by {
+    position: absolute;
+    right: 8%;
+    border: 1px solid grey;
+    padding: 3px;
+}
+select {
+    border: 0;
+    margin-left: 16px;
+}
