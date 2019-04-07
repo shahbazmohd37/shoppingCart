@@ -30,9 +30,7 @@ class Home extends Component{
          <div className="row proudcts">
             <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12">
                 <header>
-                    <div className="logo">
-                        <a href="#"><img src={'/logo.png'} width={'100%'} height={'100%'}/></a>
-                    </div>
+                    <div className="logo" />
                     <nav>
                             <div className="nav-content">
                                 <a href="#">Men</a>
