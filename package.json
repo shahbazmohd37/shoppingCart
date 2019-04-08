@@ -25,6 +25,7 @@
     "handlebars": "^4.0.6",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
+    "react-notifications": "^1.4.3",
     "react-redux": "^5.0.7",
     "react-router-dom": "^5.0.0",
     "redux": "^3.7.2",
